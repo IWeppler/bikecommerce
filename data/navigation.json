@@ -1,0 +1,48 @@
+{
+  "bicicletas": {
+    "label": "Bicicletas",
+    "sections": [
+      {
+        "title": "Montaña",
+        "links": ["Cross Country", "Trail", "Descenso", "E-MTB", "Fat Bikes"]
+      },
+      {
+        "title": "Ruta",
+        "links": ["Performance", "Gravel", "Triatlón", "E-Road"]
+      },
+      {
+        "title": "Urbana",
+        "links": ["Híbridas", "Plegables", "Cargo", "Fixie"]
+      }
+    ],
+    "featured": {
+      "title": "Nueva Apex Levo SL",
+      "subtitle": "Ligereza redefinida.",
+      "image": "https://images.unsplash.com/photo-1576435728678-68d01dbd1e29?q=80&w=2070&auto=format&fit=crop",
+      "href": "/productos/apex-levo-sl"
+    }
+  },
+  "equipamiento": {
+    "label": "Equipamiento",
+    "sections": [
+      {
+        "title": "Indumentaria",
+        "links": ["Jerseys", "Calzas", "Guantes", "Zapatillas"]
+      },
+      {
+        "title": "Componentes",
+        "links": ["Transmisión", "Frenos", "Ruedas", "Manillares"]
+      },
+      {
+        "title": "Accesorios",
+        "links": ["Cascos", "Luces", "Infladores", "Ciclocomputadoras"]
+      }
+    ],
+    "featured": {
+      "title": "Cascos Series II",
+      "subtitle": "Protección sin peso extra.",
+      "image": "https://images.unsplash.com/photo-1559056961-1f4dbbf9d36a?q=80&w=1000&auto=format&fit=crop",
+      "href": "/accesorios/cascos"
+    }
+  }
+}

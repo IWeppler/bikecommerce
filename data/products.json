@@ -1,0 +1,189 @@
+[
+  {
+    "id": "venzo-loki-evo",
+    "name": "Venzo Loki Evo Shadow",
+    "slug": "venzo-loki-evo",
+    "price": 650000,
+    "category": "bicicletas",
+    "subcategory": "mtb",
+    "image": "/images/venzo-loki.jpg",
+    "brand": "Venzo",
+    "description": "La opción ideal para iniciarse en el MTB. Cuadro de aluminio ligero y resistencia superior.",
+    "stock": 4,
+    "isBestSeller": true,
+    "isNew": false,
+    "specs": {
+      "frame": "Aluminio 6061",
+      "wheels": "Rodado 29",
+      "transmission": "Shimano Tourney 21v",
+      "brakes": "Disco Mecánico"
+    }
+  },
+  {
+    "id": "trek-marlin-7",
+    "name": "Trek Marlin 7 Gen 3",
+    "slug": "trek-marlin-7",
+    "price": 1450000,
+    "category": "bicicletas",
+    "subcategory": "mtb",
+    "image": "/images/trek-marlin.jpg",
+    "brand": "Trek",
+    "description": "Una bicicleta de cross country lista para competir. Suspensión RockShox suave y precisa.",
+    "stock": 2,
+    "isBestSeller": false,
+    "isNew": true,
+    "specs": {
+      "frame": "Alpha Silver Aluminium",
+      "wheels": "Rodado 29",
+      "transmission": "Shimano Deore 10v",
+      "brakes": "Disco Hidráulico MT200"
+    }
+  },
+  {
+    "id": "raleigh-mojave-2.0",
+    "name": "Raleigh Mojave 2.0",
+    "slug": "raleigh-mojave-2",
+    "price": 520000,
+    "category": "bicicletas",
+    "subcategory": "mtb",
+    "image": "/images/raleigh-mojave.jpg",
+    "brand": "Raleigh",
+    "description": "Clásica, robusta y confiable. La compañera perfecta para el día a día y senderos leves.",
+    "stock": 8,
+    "isBestSeller": true,
+    "isNew": false,
+    "specs": {
+      "frame": "Aluminio Hidroformado",
+      "wheels": "Rodado 29",
+      "transmission": "Shimano 21v",
+      "brakes": "Disco Mecánico"
+    }
+  },
+  {
+    "id": "slp-25-pro",
+    "name": "SLP 25 Pro",
+    "slug": "slp-25-pro",
+    "price": 480000,
+    "category": "bicicletas",
+    "subcategory": "mtb",
+    "image": "/images/slp-25.jpg",
+    "brand": "SLP",
+    "description": "Diseño aerodinámico y colores vibrantes. Excelente relación precio-calidad.",
+    "stock": 10,
+    "isBestSeller": false,
+    "isNew": false,
+    "specs": {
+      "frame": "Aluminio",
+      "wheels": "Rodado 29",
+      "transmission": "Sensah 21v",
+      "brakes": "Disco Mecánico"
+    }
+  },
+  {
+    "id": "ruta-specialized-allez",
+    "name": "Specialized Allez Sport",
+    "slug": "specialized-allez",
+    "price": 2100000,
+    "category": "bicicletas",
+    "subcategory": "ruta",
+    "image": "/images/specialized-ruta.jpg",
+    "brand": "Specialized",
+    "description": "Rendimiento de ruta puro. Ligera, rápida y lista para devorar kilómetros en el asfalto.",
+    "stock": 1,
+    "isBestSeller": false,
+    "isNew": true,
+    "specs": {
+      "frame": "E5 Premium Aluminum",
+      "wheels": "700c",
+      "transmission": "Shimano Sora 9v",
+      "brakes": "Herradura Axis"
+    }
+  },
+  {
+    "id": "casco-lazer-compact",
+    "name": "Casco Lazer Compact DLX",
+    "slug": "casco-lazer",
+    "price": 85000,
+    "category": "accesorios",
+    "subcategory": "seguridad",
+    "image": "/images/casco-lazer.jpg",
+    "brand": "Lazer",
+    "description": "Seguridad y estilo. Cuenta con luz LED integrada trasera para mayor visibilidad nocturna.",
+    "stock": 15,
+    "isBestSeller": true,
+    "isNew": false
+  },
+  {
+    "id": "inflador-beto-pie",
+    "name": "Inflador de Pie Beto Alta Presión",
+    "slug": "inflador-beto",
+    "price": 42000,
+    "category": "accesorios",
+    "subcategory": "herramientas",
+    "image": "/images/inflador.jpg",
+    "brand": "Beto",
+    "description": "Cuerpo de aluminio, manómetro preciso. Compatible con válvulas Presta y Schrader.",
+    "stock": 20,
+    "isBestSeller": false,
+    "isNew": false
+  },
+  {
+    "id": "cubierta-maxxis-ikon",
+    "name": "Cubierta Maxxis Ikon 29x2.20",
+    "slug": "cubierta-maxxis",
+    "price": 75000,
+    "category": "repuestos",
+    "subcategory": "cubiertas",
+    "image": "/images/maxxis.jpg",
+    "brand": "Maxxis",
+    "description": "La cubierta de competición por excelencia. Rodadora y con buen agarre en seco.",
+    "stock": 12,
+    "isBestSeller": true,
+    "isNew": false,
+    "specs": {
+        "details": "Kevlar (Plegable), EXO Protection"
+    }
+  },
+  {
+    "id": "luces-cateye-kit",
+    "name": "Kit Luces CatEye 100",
+    "slug": "luces-cateye",
+    "price": 38000,
+    "category": "accesorios",
+    "subcategory": "seguridad",
+    "image": "/images/luces.jpg",
+    "brand": "CatEye",
+    "description": "Kit delantero y trasero. Carga USB. Resistente a la lluvia.",
+    "stock": 25,
+    "isBestSeller": false,
+    "isNew": true
+  },
+  {
+    "id": "cadena-shimano-hg40",
+    "name": "Cadena Shimano HG40 8v",
+    "slug": "cadena-shimano",
+    "price": 18000,
+    "category": "repuestos",
+    "subcategory": "transmision",
+    "image": "/images/cadena.jpg",
+    "brand": "Shimano",
+    "description": "Repuesto original para transmisiones de 6, 7 y 8 velocidades.",
+    "stock": 40,
+    "isBestSeller": false,
+    "isNew": false
+  },
+  {
+    "id": "portama-carama",
+    "name": "Porta Caramañola Aluminio",
+    "slug": "porta-carama",
+    "price": 9000,
+    "category": "accesorios",
+    "subcategory": "varios",
+    "image": "/images/porta.jpg",
+    "brand": "Generico",
+    "description": "Ligero y resistente. Varios colores disponibles.",
+    "stock": 50,
+    "isBestSeller": false,
+    "isNew": false
+  }
+]
