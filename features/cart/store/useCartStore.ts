@@ -1,7 +1,6 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 
-// Define aquí la forma básica de tu producto
 export interface Product {
   id: string | number;
   name: string;
@@ -9,7 +8,8 @@ export interface Product {
   image: string;
   brand: string;
   stock: number;
-  // Agrega otros campos si necesitas (slug, category, etc)
+  images?: string[];
+  colors?: { name: string; hex: string }[];
 }
 
 interface CartItem extends Product {

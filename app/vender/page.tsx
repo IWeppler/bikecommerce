@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { useForm } from "react-hook-form";
+import { Controller, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import {
   SellBikeSchema,
@@ -16,6 +16,7 @@ import {
   RefreshCw,
   UploadCloud,
 } from "lucide-react";
+import { ImageUpload } from "@/shared/ui/image-upload";
 
 export default function SellPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -26,6 +27,7 @@ export default function SellPage() {
     handleSubmit,
     watch,
     setValue,
+    control,
     formState: { errors },
   } = useForm<SellBikeFormValues>({
     resolver: zodResolver(SellBikeSchema),
@@ -246,25 +248,29 @@ export default function SellPage() {
 
           <hr className="border-gray-100" />
 
-          {/* SECCIÓN 3: FOTOS (Simulada por ahora) */}
+          {/* SECCIÓN 3: FOTOS */}
           <section>
             <h2 className="font-epilogue font-bold text-xl uppercase mb-6 flex items-center justify-between">
               3. Fotos
               <span className="text-xs bg-gray-100 px-2 py-1 rounded text-gray-500 font-normal normal-case">
-                Máximo 5 fotos
+                Foto principal (Lado transmisión)
               </span>
             </h2>
 
-            <div className="border-2 border-dashed border-gray-300 rounded-sm p-10 text-center hover:bg-gray-50 transition-colors cursor-pointer group">
-              <UploadCloud className="w-10 h-10 text-gray-400 mx-auto mb-4 group-hover:text-blood transition-colors" />
-              <p className="font-bold text-foreground">
-                Hacé clic para subir o arrastrá tus fotos acá
-              </p>
-              <p className="text-sm text-gray-500 mt-2">
-                Asegurate de mostrar el lado de la transmisión y cualquier
-                detalle estético.
-              </p>
-            </div>
+            {/* CONEXIÓN CON REACT HOOK FORM */}
+            <Controller
+              name="image"
+              control={control} // Necesitas sacar 'control' del useForm abajo (*)
+              render={({
+                field: { onChange, value },
+                fieldState: { error },
+              }) => (
+                <ImageUpload
+                  onImageSelect={(file) => onChange(file)}
+                  error={error?.message}
+                />
+              )}
+            />
           </section>
 
           <hr className="border-gray-100" />

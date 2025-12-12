@@ -6,8 +6,8 @@
     "price": 650000,
     "category": "bicicletas",
     "subcategory": "mtb",
-    "style": "cross-country",
     "image": "/mtb/scalpel-lefty-a.jpg",
+    "style": "cross-country",
     "brand": "Specialized",
     "description": "La opción ideal para iniciarse en el MTB. Cuadro de aluminio ligero y resistencia superior.",
     "stock": 4,
@@ -18,7 +18,18 @@
       "wheels": "Rodado 29",
       "transmission": "Shimano Tourney 21v",
       "brakes": "Disco Mecánico"
-    }
+    },
+    "images": [
+      "/mtb/scalpel-lefty-a.jpg",
+      "/mtb/scalpel-lefty-b.webp",
+      "/mtb/scalpel-lefty-c.webp"
+    ],
+
+    "colors": [
+      { "name": "Negro Mate", "hex": "#1a1a1a" },
+      { "name": "Amarillo Mostaza", "hex": "#eab308" },
+      { "name": "Rojo Fuego", "hex": "#b91c1c" }
+    ]
   },
   {
     "id": "spectral-cf-8",
@@ -39,7 +50,19 @@
       "wheels": "Rodado 29",
       "transmission": "Shimano Deore 10v",
       "brakes": "Disco Hidráulico MT200"
-    }
+    },
+    "images": [
+      "/mtb/spectral-cf-8-a.avif",
+      "/mtb/spectral-cf-8-b.avif",
+      "/mtb/spectral-cf-8-c.avif",
+      "/mtb/spectral-cf-8-d.avif",
+      "/mtb/spectral-cf-8-e.avif"
+    ],
+
+    "colors": [
+      { "name": "Negro Mate", "hex": "#1a1a1a" },
+      { "name": "Celeste", "hex": "#57cfff" }
+    ]
   },
   {
     "id": "demo-race",
@@ -60,7 +83,14 @@
       "wheels": "Rodado 29",
       "transmission": "Shimano 21v",
       "brakes": "Disco Mecánico"
-    }
+    },
+    "images": [
+      "/mtb/demo-race-a.webp",
+      "/mtb/demo-race-b.webp",
+      "/mtb/demo-race-c.webp"
+    ],
+
+    "colors": [{ "name": "Arena", "hex": "#bdb096" }]
   },
   {
     "id": "moterra-sl",
@@ -81,7 +111,17 @@
       "wheels": "Rodado 29",
       "transmission": "Sensah 21v",
       "brakes": "Disco Mecánico"
-    }
+    },
+    "images": [
+      "/ebike/moterra-neo-sl-a.webp",
+      "/ebike/moterra-neo-sl-b.webp",
+      "/ebike/moterra-neo-sl-c.webp"
+    ],
+
+    "colors": [
+      { "name": "Lime", "hex": "#e1e386" },
+      { "name": "Verde", "hex": "#728f77" }
+    ]
   },
   {
     "id": "specialized-allez",
@@ -102,7 +142,17 @@
       "wheels": "700c",
       "transmission": "Shimano Sora 9v",
       "brakes": "Herradura Axis"
-    }
+    },
+    "images": [
+      "/race/allez-sport-a.webp",
+      "/race/allez-sport-b.webp",
+      "/race/allez-sport-c.webp"
+    ],
+
+    "colors": [
+      { "name": "Rojo Fuego", "hex": "#b91c1c" },
+      { "name": "Verde Carbon", "hex": "#385461" }
+    ]
   },
   {
     "id": "canyon-grizl-cf-8",
@@ -123,7 +173,15 @@
       "wheels": "DT Swiss Performance LN",
       "transmission": "Shimano Ultegra 11v",
       "brakes": "Disco Hidráulico Ultegra"
-    }
+    },
+    "images": [
+      "/race/canyon-grizl-a.avif",
+      "/race/canyon-grizl-b.avif",
+      "/race/canyon-grizl-c.avif",
+      "/race/canyon-grizl-d.avif"
+    ],
+
+    "colors": [{ "name": "Lavanda", "hex": "#848eca" }]
   },
   {
     "id": "cannondale-superx",
@@ -144,7 +202,15 @@
       "wheels": "WTB ST i23",
       "transmission": "Shimano GRX 800",
       "brakes": "Disco Hidráulico GRX"
-    }
+    },
+    "images": [
+      "/race/cannondale-superx-a.webp",
+      "/race/cannondale-superx-b.webp",
+      "/race/cannondale-superx-c.webp",
+      "/race/cannondale-superx-d.webp"
+    ],
+
+    "colors": [{ "name": "Blanco", "hex": "#e7eaea" }]
   },
   {
     "id": "rose-backroad-grx",
@@ -165,7 +231,16 @@
       "wheels": "WTB ST i23",
       "transmission": "Shimano GRX 800",
       "brakes": "Disco Hidráulico GRX"
-    }
+    },
+    "images": [
+      "/ebike/rose-bikes-a.avif",
+      "/ebike/rose-bikes-b.avif",
+      "/ebike/rose-bikes-b.webp",
+      "/ebike/rose-bikes-c.webp",
+      "/ebike/rose-bikes-d.webp"
+    ],
+
+    "colors": [{ "name": "Blanco", "hex": "#e7eaea" }]
   },
   {
     "id": "specialized-shiv-expert",
@@ -186,7 +261,14 @@
       "wheels": "Roval C38 Carbon",
       "transmission": "Shimano Ultegra Di2",
       "brakes": "Disco Hidráulico TRP"
-    }
+    },
+    "images": [
+      "/race/allez-sprint-comp-a.webp",
+      "/race/allez-sprint-comp-b.webp",
+      "/race/allez-sprint-comp-c.webp"
+    ],
+
+    "colors": [{ "name": "Violeta", "hex": "#4f3e99" }]
   },
   {
     "id": "cervelo-p5",
@@ -207,7 +289,15 @@
       "wheels": "Roval C38 Carbon",
       "transmission": "Shimano Ultegra Di2",
       "brakes": "Disco Hidráulico TRP"
-    }
+    },
+    "images": [
+      "/race/cervelo-p5.webp",
+      "/race/cervelo-p5-b.webp",
+      "/race/cervelo-p5-c.webp",
+      "/race/cervelo-p5-d.webp"
+    ],
+
+    "colors": [{ "name": "Bordeaux", "hex": "#300003" }]
   },
   {
     "id": "synapse-neo-allroad-1",
@@ -228,7 +318,15 @@
       "wheels": "WTB ST i23",
       "transmission": "Shimano GRX 800",
       "brakes": "Disco Hidráulico GRX"
-    }
+    },
+    "images": [
+      "/ebike/synapse-neo-allroad-a.webp",
+      "/ebike/synapse-neo-allroad-b.webp",
+      "/ebike/synapse-neo-allroad-c.webp",
+      "/ebike/synapse-neo-allroad-d.webp"
+    ],
+
+    "colors": [{ "name": "Oliva", "hex": "#626347" }]
   },
   {
     "id": "cannondale-bad-boy",
@@ -249,7 +347,15 @@
       "wheels": "650b Cannondale",
       "transmission": "MicroSHIFT 9v",
       "brakes": "Disco Hidráulico Shimano"
-    }
+    },
+    "images": [
+      "/urban/cannondale-bad-boy-2.webp",
+      "/urban/cannondale-bad-boy-2-a.webp",
+      "/urban/cannondale-bad-boy-2-b.webp",
+      "/urban/cannondale-bad-boy-2-c.webp"
+    ],
+
+    "colors": [{ "name": "Negro Mate", "hex": "#101010" }]
   },
   {
     "id": "flyingv-2",
@@ -270,7 +376,14 @@
       "wheels": "650b Cannondale",
       "transmission": "MicroSHIFT 9v",
       "brakes": "Disco Hidráulico Shimano"
-    }
+    },
+    "images": [
+      "/ebike/flyingv-2.webp",
+      "/ebike/flyingv-2-b.webp",
+      "/ebike/flyingv-2-c.webp"
+    ],
+
+    "colors": [{ "name": "Naranja", "hex": "#e96315" }]
   },
   {
     "id": "specialized-turbo-vado",
@@ -280,7 +393,7 @@
     "category": "bicicletas",
     "subcategory": "urbana",
     "style": "cargo",
-    "image": "/urban/specialized-turbo-vado-a.webp",
+    "image": "/urban/specialized-turbo-vado.webp",
     "brand": "Specialized",
     "description": "La camioneta de las bicicletas. Asistencia eléctrica potente y capacidad de carga para llevar a los niños o las compras.",
     "stock": 2,
@@ -291,7 +404,15 @@
       "wheels": "Mullet (24/20)",
       "transmission": "Enviolo Automatiq",
       "brakes": "Tektro Dorardo 4-piston"
-    }
+    },
+    "images": [
+      "/urban/specialized-turbo-vado.webp",
+      "/urban/specialized-turbo-vado-a.webp",
+      "/urban/specialized-turbo-vado-b.webp",
+      "/urban/specialized-turbo-vado-c.webp"
+    ],
+
+    "colors": [{ "name": "Negro", "hex": "#101010" }]
   },
   {
     "id": "nunlane-c62",
@@ -312,7 +433,17 @@
       "wheels": "Perfil 50mm",
       "transmission": "Single Speed 46/16",
       "brakes": "Disco Hidráulico Shimano"
-    }
+    },
+    "images": [
+      "/urban/cube-fixie.jpg",
+      "/urban/cube-fixie-a.jpg",
+      "/urban/cube-fixie-b.jpg",
+      "/urban/cube-fixie-c.jpg",
+      "/urban/cube-fixie-d.jpg",
+      "/urban/cube-fixie-e.jpg",
+      "/urban/cube-fixie-f.jpg"
+    ],
+    "colors": [{ "name": "Verde Oliva", "hex": "#829583" }]
   },
   {
     "id": "nunlane-race",
@@ -333,7 +464,16 @@
       "wheels": "Perfil 45mm",
       "transmission": "Single Speed 46/16",
       "brakes": "Disco Hidráulico Shimano"
-    }
+    },
+    "images": [
+      "/urban/cube-nunlane.jpg",
+      "/urban/cube-nunlane-a.jpg",
+      "/urban/cube-nunlane-b.jpg",
+      "/urban/cube-nunlane-c.jpg",
+      "/urban/cube-nunlane-d.jpg",
+      "/urban/cube-nunlane-f.jpg"
+    ],
+    "colors": [{ "name": "Ladrillo", "hex": "#773626" }]
   },
   {
     "id": "cervelo-aspero",
@@ -354,7 +494,9 @@
       "wheels": "Perfil 45mm",
       "transmission": "Single Speed 46/16",
       "brakes": "Disco Hidráulico Shimano"
-    }
+    },
+    "images": ["/used/cervelo-aspero.webp", "/used/cervelo-aspero-b.webp"],
+    "colors": [{ "name": "Amarillo", "hex": "#d58d00" }]
   },
   {
     "id": "cervelo-caledonia",
@@ -375,9 +517,14 @@
       "wheels": "Perfil 45mm",
       "transmission": "Single Speed 46/16",
       "brakes": "Disco Hidráulico Shimano"
-    }
+    },
+    "images": [
+      "/used/cervelo-caledonia-a.webp",
+      "/used/cervelo-caledonia-b.webp",
+      "/used/cervelo-caledonia-c.webp"
+    ],
+    "colors": [{ "name": "Verde", "hex": "#091912" }]
   },
-
 
   {
     "id": "jersey-velodrom-white",
@@ -391,7 +538,13 @@
     "description": "Jersey de velocidad para ciclistas de velocidad.",
     "stock": 10,
     "isBestSeller": true,
-    "isNew": false
+    "isNew": false,
+    "images": [
+      "/clothes/velodrom-jersey-white-a.webp",
+      "/clothes/velodrom-jersey-white-c.webp",
+      "/clothes/velodrom-jersey-white-d.webp"
+    ],
+    "colors": [{ "name": "Blanco", "hex": "#fff" }]
   },
   {
     "id": "rapha-jersey",
@@ -405,7 +558,13 @@
     "description": "Jersey de velocidad para ciclistas de velocidad.",
     "stock": 10,
     "isBestSeller": true,
-    "isNew": false
+    "isNew": false,
+    "images": [
+      "/clothes/rapha-jersey-a.webp",
+      "/clothes/rapha-jersey-b.webp",
+      "/clothes/rapha-jersey-c.webp"
+    ],
+    "colors": [{ "name": "Rosado", "hex": "#fe7793" }]
   },
   {
     "id": "jersey-velodrom-sandgreen",
@@ -419,7 +578,13 @@
     "description": "Jersey de velocidad para ciclistas de velocidad.",
     "stock": 10,
     "isBestSeller": true,
-    "isNew": false
+    "isNew": false,
+    "images": [
+      "/clothes/texture-sandgreen-a.webp",
+      "/clothes/texture-sandgreen-b.webp",
+      "/clothes/texture-sandgreen-c.webp"
+    ],
+    "colors": [{ "name": "Sandgreen", "hex": "#091912" }]
   },
 
   {
@@ -434,7 +599,13 @@
     "description": "Short de velocidad para ciclistas de velocidad.",
     "stock": 10,
     "isBestSeller": true,
-    "isNew": false
+    "isNew": false,
+    "images": [
+      "/clothes/short-green-a.webp",
+      "/clothes/short-green-b.webp",
+      "/clothes/short-green-c.webp"
+    ],
+    "colors": [{ "name": "Verde", "hex": "#091912" }]
   },
   {
     "id": "guantes",
@@ -448,7 +619,9 @@
     "description": "Guantes de velocidad para ciclistas de velocidad.",
     "stock": 10,
     "isBestSeller": true,
-    "isNew": false
+    "isNew": false,
+    "images": ["/clothes/gloves-black-a.webp", "/clothes/gloves-black-b.webp"],
+    "colors": [{ "name": "Negro", "hex": "#010101" }]
   },
   {
     "id": "shoe-torch",
@@ -462,7 +635,12 @@
     "description": "Zapatillas de velocidad para ciclistas de velocidad.",
     "stock": 10,
     "isBestSeller": true,
-    "isNew": false
+    "isNew": false,
+    "images": ["/clothes/shoe-torch-a.webp", "/clothes/shoe-torch-b.webp"],
+    "colors": [
+      { "name": "Blanco", "hex": "#d7d7d7" },
+      { "name": "Negro", "hex": "#010101" }
+    ]
   },
 
   {
@@ -477,7 +655,15 @@
     "description": "Seguridad y estilo. Cuenta con luz LED integrada trasera para mayor visibilidad nocturna.",
     "stock": 15,
     "isBestSeller": true,
-    "isNew": false
+    "isNew": false,
+    "images": [
+      "/equipment/helmet-street-a.webp",
+      "/equipment/helmet-street-b.webp"
+    ],
+    "colors": [
+      { "name": "Lime", "hex": "#b7bcaf" },
+      { "name": "Negro", "hex": "#010101" }
+    ]
   },
   {
     "id": "casco-dynam",
@@ -491,7 +677,12 @@
     "description": "Seguridad y estilo. Cuenta con luz LED integrada trasera para mayor visibilidad nocturna.",
     "stock": 1,
     "isBestSeller": true,
-    "isNew": false
+    "isNew": false,
+    "images": ["/equipment/helmet-a.webp", "/equipment/helmet-b.webp"],
+    "colors": [
+      { "name": "Celeste", "hex": "#0191cc" },
+      { "name": "Negro", "hex": "#010101" }
+    ]
   },
   {
     "id": "inflador-mini-pump",
@@ -505,7 +696,9 @@
     "description": "Cuerpo de aluminio, manómetro preciso. Compatible con válvulas Presta y Schrader.",
     "stock": 20,
     "isBestSeller": false,
-    "isNew": false
+    "isNew": false,
+    "images": ["/equipment/inflador-a.webp", "/equipment/inflador.webp"],
+    "colors": [{ "name": "Negro", "hex": "#010101" }]
   },
   {
     "id": "luces-foresite-e350",
@@ -519,7 +712,9 @@
     "description": "Kit delantero y trasero. Carga USB. Resistente a la lluvia.",
     "stock": 25,
     "isBestSeller": false,
-    "isNew": true
+    "isNew": true,
+    "images": ["/equipment/luces-a.webp", "/equipment/luces-b.webp"],
+    "colors": [{ "name": "Negro", "hex": "#010101" }]
   },
   {
     "id": "cubierta-maxxis-ikon",
@@ -550,7 +745,9 @@
     "description": "Repuesto original para transmisiones de 6, 7 y 8 velocidades.",
     "stock": 40,
     "isBestSeller": false,
-    "isNew": false
+    "isNew": false,
+    "images": ["/equipment/brakes.avif"],
+    "colors": [{ "name": "Negro", "hex": "#010101" }]
   },
   {
     "id": "garmin-edge-1040-computer",
@@ -564,7 +761,13 @@
     "description": "Garmin Edge 1040 Computer. Repuesto original para transmisiones de 6, 7 y 8 velocidades.",
     "stock": 40,
     "isBestSeller": false,
-    "isNew": false
+    "isNew": false,
+    "images": [
+      "/equipment/garmin-gps.webp",
+      "/equipment/garmin-gps-c.webp",
+      "/equipment/garmin-gps-b.webp"
+    ],
+    "colors": [{ "name": "Negro", "hex": "#010101" }]
   },
   {
     "id": "sram-red-e1-axs",
@@ -578,7 +781,13 @@
     "description": "SRAM Red E1 AXS 2024 Grupo Completo with Quarq Medidor de potencia- Negro/Plata.",
     "stock": 2,
     "isBestSeller": false,
-    "isNew": false
+    "isNew": false,
+    "images": [
+      "/equipment/transmision.webp",
+      "/equipment/transmision-a.webp",
+      "/equipment/transmision-b.webp"
+    ],
+    "colors": [{ "name": "Negro", "hex": "#010101" }]
   },
   {
     "id": "vision-metron-45-sl",
@@ -592,7 +801,11 @@
     "description": "SRAM VISION Juego de Ruedas Metron 45 SL Disc TL",
     "stock": 2,
     "isBestSeller": false,
-    "isNew": false
+    "isNew": false,
+    "images": [
+      "/equipment/wheelset.webp"
+    ],
+    "colors": [{ "name": "Negro", "hex": "#010101" }]
   },
   {
     "id": "enve-ses-ar-in-route",
@@ -606,6 +819,8 @@
     "description": "Manillar integrado SES AR In Route.",
     "stock": 2,
     "isBestSeller": false,
-    "isNew": false
+    "isNew": false,
+    "images": ["/equipment/handlebar-a.webp", "/equipment/handlebar-b.webp"],
+    "colors": [{ "name": "Negro", "hex": "#010101" }]
   }
 ]

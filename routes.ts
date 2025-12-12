@@ -22,10 +22,12 @@ export const routes = {
     forgotPassword: "/forgot",
     account: "/account",
   },
+
   // Rutas de carrito/checkout
   checkout: {
     cart: "/carrito",
     process: "/checkout",
     success: "/checkout/success",
+    rejected: "/checkout/rejected",
   },
 };
