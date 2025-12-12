@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { routes } from "@/routes";
 
 export default function Hero() {
   return (
@@ -46,15 +47,15 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
-              href="/categoria/bicicletas"
-              className="px-8 py-4 bg-swiss-blood hover:bg-red-700 text-background font-epilogue font-bold uppercase tracking-wider text-sm transition-all flex items-center justify-center gap-2 group"
+              href={routes.catalog.category("bicicletas")}
+              className="px-8 py-4 bg-blood hover:bg-red-700 text-background font-epilogue font-bold uppercase tracking-wider text-sm transition-all flex items-center justify-center gap-2 group"
             >
               Ver Bicicletas
               <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </Link>
 
             <Link
-              href="/marcas"
+              href='#brands'
               className="px-8 py-4 bg-transparent border border-background text-background hover:bg-background hover:text-foreground font-epilogue font-bold uppercase tracking-wider text-sm transition-all text-center"
             >
               Nuestras Marcas

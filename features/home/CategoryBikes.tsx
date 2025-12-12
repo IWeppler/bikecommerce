@@ -3,6 +3,7 @@
 import React, { useRef } from "react";
 import Link from "next/link";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { routes } from "@/routes";
 
 const products = [
   {
@@ -118,7 +119,7 @@ export default function CategoryBikes() {
           {products.map((cat, idx) => (
             <Link
               key={idx}
-              href={`/categoria/${cat.subcategory}`}
+              href={routes.catalog.subcategory(cat.category, cat.subcategory)}
               className="flex-none w-[280px] md:w-[320px] snap-start group"
             >
               <div className="relative aspect-4/5 overflow-hidden bg-surface mb-4 rounded-sm">

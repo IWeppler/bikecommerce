@@ -3,6 +3,7 @@ import "./globals.css";
 import TopBar from "@/shared/components/Navbar/TopBar";
 import Navbar from "@/shared/components/Navbar/Navbar";
 import Footer from "@/shared/components/Footer";
+import CartSidebar from "@/features/cart/CartSidebar";
 
 export const metadata: Metadata = {
   title: "Apex Bikes | Rendimiento en Movimiento",
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className="font-manrope antialiased bg-background text-foreground">
         <TopBar />
         <Navbar />
+        <CartSidebar />
         <main>{children}</main>
         <Footer />
       </body>

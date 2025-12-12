@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { routes } from "@/routes";
 
 const CATEGORY_DATA = {
   bicicletas: {
@@ -10,43 +11,39 @@ const CATEGORY_DATA = {
       {
         name: "Montaña (MTB)",
         slug: "mtb",
-        image:
-          "https://images.unsplash.com/photo-1576435728678-68d01dbd1e29?q=80&w=2070&auto=format&fit=crop",
+        image: "/categories/mountainbike.jpg",
         count: 42,
       },
       {
         name: "Ruta y Pista",
         slug: "ruta",
-        image:
-          "https://images.unsplash.com/photo-1534150536767-17cb244c4f94?q=80&w=2070&auto=format&fit=crop",
+        image: "/categories/bannerrace.avif",
         count: 28,
       },
       {
         name: "E-Bikes",
         slug: "e-bike",
-        image:
-          "https://images.unsplash.com/photo-1618359057154-e21ae64350b6?q=80&w=2070&auto=format&fit=crop",
+        image: "/categories/ebike.jpg",
         count: 12,
       },
       {
         name: "Gravel",
         slug: "gravel",
-        image:
-          "https://images.unsplash.com/photo-1485965120184-e220f721d03e?q=80&w=2070&auto=format&fit=crop",
+        image: "/categories/bannergrava.avif",
         count: 8,
       },
       {
         name: "Urbanas",
         slug: "urbana",
         image:
-          "https://images.unsplash.com/photo-1571068316344-75bc76f77890?q=80&w=2070&auto=format&fit=crop",
+          "/categories/urban.avif",
         count: 15,
       },
       {
         name: "Niños",
         slug: "kids",
         image:
-          "https://images.unsplash.com/photo-1595188610118-8c0147980d46?q=80&w=2070&auto=format&fit=crop",
+          "/kids/portada.webp",
         count: 10,
       },
     ],
@@ -91,7 +88,7 @@ export default function CategoryHub({ categorySlug }: CategoryHubProps) {
     return (
       <div className="py-20 text-center">
         <h2 className="text-2xl font-bold mb-4">Categoría no encontrada</h2>
-        <Link href="/catalogo" className="text-swiss-blood hover:underline">
+        <Link href={routes.catalog.root} className="text-blood hover:underline">
           Volver al catálogo
         </Link>
       </div>
@@ -104,13 +101,13 @@ export default function CategoryHub({ categorySlug }: CategoryHubProps) {
       <div className="bg-surface py-12 md:py-16 border-b border-gray-200">
         <div className="max-w-[1440px] mx-auto px-4">
           <div className="flex items-center gap-2 text-xs text-gray-500 uppercase tracking-widest mb-4">
-            <Link href="/" className="hover:text-swiss-blood transition-colors">
+            <Link href="/" className="hover:text-blood transition-colors">
               Inicio
             </Link>
             <span>/</span>
             <Link
-              href="/catalogo"
-              className="hover:text-swiss-blood transition-colors"
+              href={routes.catalog.root}
+              className="hover:text-blood transition-colors"
             >
               Catálogo
             </Link>
@@ -136,8 +133,8 @@ export default function CategoryHub({ categorySlug }: CategoryHubProps) {
           {data.items.map((sub) => (
             <Link
               key={sub.slug}
-              href={`/catalogo/${categorySlug}/${sub.slug}`}
-              className="group relative flex flex-col bg-white rounded-sm border border-gray-100 hover:border-swiss-blood/30 hover:shadow-xl transition-all duration-300 overflow-hidden aspect-4/3"
+              href={routes.catalog.subcategory(categorySlug, sub.slug)}
+              className="group relative flex flex-col bg-white rounded-sm border border-gray-100 hover:border-blood/30 hover:shadow-xl transition-all duration-300 overflow-hidden aspect-4/3"
             >
               {/* Imagen que llena la tarjeta */}
               <div className="absolute inset-0 z-0 bg-gray-100">
@@ -160,7 +157,7 @@ export default function CategoryHub({ categorySlug }: CategoryHubProps) {
                   </p>
                 </div>
 
-                <div className="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center group-hover:bg-swiss-blood transition-colors">
+                <div className="w-10 h-10 rounded-full bg-white/10 backdrop-blur-md flex items-center justify-center group-hover:bg-blood transition-colors">
                   <ArrowRight className="w-5 h-5 text-white -rotate-45 group-hover:rotate-0 transition-transform duration-300" />
                 </div>
               </div>

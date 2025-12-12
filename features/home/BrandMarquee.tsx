@@ -1,20 +1,25 @@
-'use client';
+"use client";
 
 const brands = [
-  { name: "Specialized", logo: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Specialized_Bicycle_Components_Logo.svg" },
-  { name: "Trek", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b2/Trek_Bicycle_Corporation_logo.svg" },
-  { name: "Shimano", logo: "https://upload.wikimedia.org/wikipedia/commons/2/23/Shimano_logo.svg" },
-  { name: "SRAM", logo: "https://upload.wikimedia.org/wikipedia/commons/b/b5/SRAM_logo.svg" },
-  { name: "Scott", logo: "https://upload.wikimedia.org/wikipedia/commons/1/15/Scott_Sports_logo.svg" },
-  { name: "Fox", logo: "https://upload.wikimedia.org/wikipedia/commons/6/63/Fox_Racing_Shox_logo.svg" },
-  { name: "Oakley", logo: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Oakley_logo.svg" },
-  { name: "Cannondale", logo: "https://upload.wikimedia.org/wikipedia/commons/d/d3/Cannondale_bicycle_corporation_logo.svg" },
+  { name: "Specialized", logo: "/brands/specialized.jpg" },
+  { name: "Trek", logo: "/brands/trek.jpg" },
+  { name: "Shimano", logo: "/brands/shimano.jpg" },
+  { name: "Scott", logo: "/brands/scott.webp" },
+  { name: "Oakley", logo: "/brands/oakley.jpg" },
+  { name: "Cannondale", logo: "/brands/cannondale.jpg" },
+  { name: "Canyon", logo: "/brands/canyon.jpg" },
+  { name: "Cube", logo: "/brands/cube.jpg" },
+  { name: "Cervelo", logo: "/brands/cervelo.jpg" },
+  { name: "Rose", logo: "/brands/rose.jpg" },
+  { name: "Giant", logo: "/brands/gyant.webp" },
+  { name: "SLP", logo: "/brands/slp.webp" },
+  { name: "Velodrom", logo: "/brands/velodrom.avif" },
 ];
 
 export default function BrandMarquee() {
   return (
-    <section className="w-full bg-surface border-y border-neutral-200 py-16 overflow-hidden relative">
-      <div className="max-w-[1440px] mx-auto px-4 mb-10 text-center">
+    <section id="brands" className="w-full bg-surface border-y border-neutral-200 py-8 overflow-hidden relative">
+      <div className="max-w-[1440px] mx-auto px-4 mb-4 text-center">
         <p className="font-epilogue font-bold text-xs uppercase tracking-widest text-blood">
           Distribuidores Oficiales
         </p>
@@ -29,12 +34,12 @@ export default function BrandMarquee() {
           {[...brands, ...brands, ...brands, ...brands].map((brand, index) => (
             <div
               key={`${brand.name}-${index}`}
-              className="flex items-center justify-center mx-8 md:mx-14 grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500 cursor-pointer"
+              className="flex items-center justify-center mx-8 md:mx-14 grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition-all duration-500"
             >
               <img
                 src={brand.logo}
                 alt={brand.name}
-                className="h-8 md:h-10 w-auto max-w-[120px] object-contain select-none"
+                className="h-12 md:h-18 w-auto max-w-[120px] object-contain select-none"
               />
             </div>
           ))}
@@ -46,10 +51,14 @@ export default function BrandMarquee() {
           animation: scroll 70s linear infinite;
         }
         @keyframes scroll {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(-50%); }
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(-50%);
+          }
         }
-        
+
         .group:hover .animate-marquee {
           animation-play-state: paused;
         }

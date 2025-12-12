@@ -3,8 +3,8 @@
     "label": "Bicicletas",
     "sections": [
       {
-        "title": "Montaña",
-        "links": ["Cross Country", "Trail", "Descenso", "E-MTB", "Fat Bikes"]
+        "title": "MTB",
+        "links": ["Cross Country", "Trail", "Descenso", "E-MTB"]
       },
       {
         "title": "Ruta",
@@ -13,13 +13,17 @@
       {
         "title": "Urbana",
         "links": ["Híbridas", "Plegables", "Cargo", "Fixie"]
+      },
+      {
+        "title": "Usados",
+        "links": ["Usados"]
       }
     ],
     "featured": {
-      "title": "Nueva Apex Levo SL",
+      "title": "FlyingV 2",
       "subtitle": "Ligereza redefinida.",
-      "image": "https://images.unsplash.com/photo-1576435728678-68d01dbd1e29?q=80&w=2070&auto=format&fit=crop",
-      "href": "/productos/apex-levo-sl"
+      "image": "/ebike/flyingv-2.jpg",
+      "href": "/productos/flyingv-2"
     }
   },
   "equipamiento": {
@@ -39,9 +43,9 @@
       }
     ],
     "featured": {
-      "title": "Cascos Series II",
+      "title": "Casco Street Adult",
       "subtitle": "Protección sin peso extra.",
-      "image": "https://images.unsplash.com/photo-1559056961-1f4dbbf9d36a?q=80&w=1000&auto=format&fit=crop",
+      "image": "/clothes/helmet.jpg",
       "href": "/accesorios/cascos"
     }
   }

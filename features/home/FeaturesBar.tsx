@@ -20,11 +20,11 @@ const features = [
 
 export default function FeaturesBar() {
   return (
-    <section className="bg-foreground text-background py-12 border-b-4 border-swiss-blood">
+    <section className="bg-foreground text-background py-12">
       <div className="max-w-[1440px] mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
         {features.map((item, idx) => (
           <div key={idx} className="flex items-center gap-4 group cursor-default">
-            <div className="p-3 bg-white/5 rounded-sm group-hover:bg-swiss-blood transition-colors duration-300">
+            <div className="p-3 bg-white/5 rounded-sm">
               <item.icon className="w-6 h-6 text-background" />
             </div>
             <div>

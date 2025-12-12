@@ -14,7 +14,7 @@ export default function FeaturedProductSpec() {
         
         {/* Header de Sección */}
         <div className="text-center mb-16 lg:mb-24 animate-in fade-in slide-in-from-bottom-4 duration-700">
-          <span className="text-swiss-blood font-bold uppercase tracking-widest text-xs mb-3 block">
+          <span className="text-blood font-bold uppercase tracking-widest text-xs mb-3 block">
             Ingeniería de Precisión
           </span>
           <h2 className="font-epilogue font-bold text-4xl md:text-5xl text-white italic tracking-tighter uppercase">
@@ -31,29 +31,29 @@ export default function FeaturedProductSpec() {
             <div className="group relative text-left lg:text-right">
               <div className="flex items-center lg:justify-end gap-3 mb-2">
                 <span className="text-gray-400 text-xs font-bold uppercase tracking-wider">Cuadro</span>
-                <Layers className="w-5 h-5 text-swiss-blood" />
+                <Layers className="w-5 h-5 text-blood" />
               </div>
               <h3 className="text-xl md:text-2xl font-epilogue font-bold text-white mb-2">Alpha Gold Aluminium</h3>
               <p className="text-gray-500 text-sm leading-relaxed">
                 Tubo de dirección cónico y guiado interno de cables para una estética limpia y aerodinámica.
               </p>
               {/* Línea conectora (Visible solo desktop) */}
-              <div className="hidden lg:block absolute top-1/2 right-[-20%] w-[20%] h-px bg-linear-to-r from-transparent to-swiss-blood/50"></div>
-              <div className="hidden lg:block absolute top-1/2 right-[-20%] w-2 h-2 rounded-full bg-swiss-blood shadow-[0_0_10px_rgba(206,12,47,0.5)]"></div>
+              <div className="hidden lg:block absolute top-1/2 right-[-20%] w-[20%] h-px bg-linear-to-r from-transparent to-blood/50"></div>
+              <div className="hidden lg:block absolute top-1/2 right-[-20%] w-2 h-2 rounded-full bg-blood shadow-[0_0_10px_rgba(206,12,47,0.5)]"></div>
             </div>
 
             {/* Spec Item: Suspensión */}
             <div className="group relative text-left lg:text-right">
                <div className="flex items-center lg:justify-end gap-3 mb-2">
                 <span className="text-gray-400 text-xs font-bold uppercase tracking-wider">Suspensión</span>
-                <Zap className="w-5 h-5 text-swiss-blood" />
+                <Zap className="w-5 h-5 text-blood" />
               </div>
               <h3 className="text-xl md:text-2xl font-epilogue font-bold text-white mb-2">RockShox Judy SL</h3>
               <p className="text-gray-500 text-sm leading-relaxed">
                 Bloqueo TurnKey, muelle Solo Air y 100 mm de recorrido para absorber cualquier impacto.
               </p>
                {/* Línea conectora */}
-              <div className="hidden lg:block absolute top-1/2 right-[-40%] w-[40%] h-px bg-linear-to-r from-transparent to-swiss-blood/50 rotate-12 origin-left"></div>
+              <div className="hidden lg:block absolute top-1/2 right-[-40%] w-[40%] h-px bg-linear-to-r from-transparent to-blood/50 rotate-12 origin-left"></div>
             </div>
           </div>
 
@@ -75,7 +75,7 @@ export default function FeaturedProductSpec() {
              <div className="absolute -bottom-6 lg:bottom-10 left-1/2 -translate-x-1/2 z-20">
                 <Link
                   href="/producto/trek-marlin-7"
-                  className="flex items-center gap-2 px-8 py-3 bg-white text-foreground hover:bg-swiss-blood hover:text-white font-epilogue font-bold uppercase tracking-wider text-xs transition-all rounded-full shadow-lg"
+                  className="flex items-center gap-2 px-8 py-3 bg-white text-foreground hover:bg-blood hover:text-white font-epilogue font-bold uppercase tracking-wider text-xs transition-all rounded-full shadow-lg"
                 >
                   Ver Especificaciones
                   <ArrowRight className="w-4 h-4" />
@@ -88,7 +88,7 @@ export default function FeaturedProductSpec() {
              {/* Spec Item: Transmisión */}
              <div className="group relative">
               <div className="flex items-center gap-3 mb-2">
-                <Cog className="w-5 h-5 text-swiss-blood" />
+                <Cog className="w-5 h-5 text-blood" />
                 <span className="text-gray-400 text-xs font-bold uppercase tracking-wider">Transmisión</span>
               </div>
               <h3 className="text-xl md:text-2xl font-epilogue font-bold text-white mb-2">Shimano Deore 1x12</h3>
@@ -96,14 +96,14 @@ export default function FeaturedProductSpec() {
                 El rango de desarrollos que necesitás para las subidas más empinadas sin el peso extra.
               </p>
               {/* Línea conectora */}
-              <div className="hidden lg:block absolute top-1/2 left-[-20%] w-[20%] h-px bg-linear-to-l from-transparent to-swiss-blood/50"></div>
-              <div className="hidden lg:block absolute top-1/2 left-[-20%] w-2 h-2 rounded-full bg-swiss-blood shadow-[0_0_10px_rgba(206,12,47,0.5)]"></div>
+              <div className="hidden lg:block absolute top-1/2 left-[-20%] w-[20%] h-px bg-linear-to-l from-transparent to-blood/50"></div>
+              <div className="hidden lg:block absolute top-1/2 left-[-20%] w-2 h-2 rounded-full bg-blood shadow-[0_0_10px_rgba(206,12,47,0.5)]"></div>
             </div>
 
             {/* Spec Item: Frenos */}
             <div className="group relative">
               <div className="flex items-center gap-3 mb-2">
-                <Disc className="w-5 h-5 text-swiss-blood" />
+                <Disc className="w-5 h-5 text-blood" />
                 <span className="text-gray-400 text-xs font-bold uppercase tracking-wider">Frenado</span>
               </div>
               <h3 className="text-xl md:text-2xl font-epilogue font-bold text-white mb-2">Discos Hidráulicos</h3>
@@ -111,7 +111,7 @@ export default function FeaturedProductSpec() {
                 Potencia de frenado Shimano MT200 fiable en cualquier condición climática.
               </p>
                {/* Línea conectora */}
-               <div className="hidden lg:block absolute top-1/2 left-[-40%] w-[40%] h-px bg-linear-to-l from-transparent to-swiss-blood/50 -rotate-12 origin-right"></div>
+               <div className="hidden lg:block absolute top-1/2 left-[-40%] w-[40%] h-px bg-linear-to-l from-transparent to-blood/50 -rotate-12 origin-right"></div>
             </div>
           </div>
 
