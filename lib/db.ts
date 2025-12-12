@@ -9,11 +9,11 @@ export function slugify(text: string) {
   return text
     .toString()
     .toLowerCase()
-    .normalize("NFD") // Separa la letra de la tilde (ó -> o + ´)
-    .replace(/[\u0300-\u036f]/g, "") // Borra las tildes
-    .replace(/\s+/g, "-") // Reemplaza espacios por guiones
-    .replace(/[^\w\-]+/g, "") // Borra caracteres raros
-    .replace(/\-\-+/g, "-") 
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/\s+/g, "-")
+    .replace(/[^\w\-]+/g, "")
+    .replace(/\-\-+/g, "-")
     .trim();
 }
 
@@ -57,7 +57,6 @@ export const getAllCategoryPaths = () => {
 
     categoryData.sections.forEach((section) => {
       section.links.forEach((linkName) => {
-        // Aquí usamos slugify para que "Triatlón" genere la ruta "/triatlon"
         paths.push([catSlug, slugify(linkName)]);
       });
     });
@@ -89,4 +88,8 @@ export const isValidCategory = (slugs: string[]) => {
   return (
     allSubLinks.includes(cleanSub) || commonSubcategories.includes(cleanSub)
   );
+};
+
+export const getOfferProducts = () => {
+  return productsData.filter((p) => p.isOffer === true);
 };
